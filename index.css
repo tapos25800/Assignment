@@ -1,0 +1,256 @@
+
+/* -----------------
+   --  font area---
+-------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+ 
+
+
+/* --------------------------------------
+    ---- header section style start  ----
+----------------------------------------- */
+
+
+body{
+    margin:auto;
+    font-family: 'Poppins', sans-serif;
+    width:1140px;
+  background-color: #fff;
+        
+    }
+ 
+ 
+   
+ 
+.top-header{background-color:#2D25A0; 
+  height: 500px;
+    padding-bottom: 150px;
+    margin-bottom:70px;
+} 
+ 
+ 
+
+ 
+ 
+
+.header{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+
+.header h1{margin-top:207px;
+    margin-left:65px;
+    font-size:50px;
+    color:white;
+    padding-left:85px; }
+ 
+
+/* ----------------------------
+        Amimamatin & transition part start
+------------------------------ */
+
+
+
+.header-banner{width:80%;
+    margin-top:163px;
+    margin-left:-30px;
+  position:relative;
+  animation-name:photo;
+  animation-duration: 2s;  
+  }
+
+
+@keyframes photo {
+    from {left: 200px; visibility:hidden; opacity:0; }
+
+    to {left: 0px; visibility:visible; opacity:1;
+        box-shadow: -20px -15px 20px #4b5371;}
+    }
+    
+
+/* -------------------------------------
+       Amimamatin &transition part end
+---------------------------------------- */
+ 
+
+
+ .header a{ color:#fff;
+        padding:6px 8px;
+        border-radius:2px;
+          margin-left:147px;
+        background: #E02C6D;
+        text-decoration: none;
+       padding-top:-30px;
+         position:relative;
+      top:10px;
+}
+
+
+/* -------------------------Hover part --------------------------------------------- */
+
+
+
+.header a:hover{background-color:  #cc0e54;}
+
+.header i{margin-left:10px;}
+
+
+
+
+/* --------------------------------------
+    ---- header section style end  ----
+----------------------------------------- */
+
+
+
+/* --------------------------------------
+          container section start
+----------------------------------------- */
+
+.container{display:grid;
+  margin-left: -12px;
+   grid-template-columns: repeat(3, 1fr);}
+
+
+
+.all-players{ width: 338px;
+  height: 474px;
+  margin:10px; 
+  padding:15px;
+  background: #e0dcdc;
+box-shadow: 1px 1px 0px 0px #cad0c8;  
+border-radius:10px;
+overflow: hidden;}
+
+
+
+   .all-players img{width:100%;
+  border-radius: 5px;}
+
+
+
+   .all-players h2{margin:10px;
+  font-size:30px;
+  margin-left:-3px;}
+
+  .all-players p{color:rgb(122, 117, 117);}
+
+
+  /* --------------------------------------
+          container section end
+----------------------------------------- */
+
+
+
+
+
+
+/* ------------------------------------------
+           footer-section start
+----------------------------------------------- */
+ 
+ 
+
+.footer{
+  width:40%;
+  float: left;
+ 
+  margin-left: 5%;
+  padding-left: 2%;}
+
+  .footer p{color:#907070;
+    margin-left:-32px;}
+
+
+.footer h1{margin-top:207px;
+  margin-left:-119px;
+  font-size:50px;
+  color:rgb(8, 8, 8);
+  padding-left:85px; }
+
+
+  .footer a{ color:#fff;
+    padding:6px 8px;
+    border-radius:2px;
+      margin-left:-28px;
+    background: #E02C6D;
+    text-decoration: none;
+   padding-top:-30px;
+     position:relative;
+  top:10px;
+  }
+  .footer i{margin-left:10px;}
+ 
+
+ 
+
+      
+.footer-banner{width:100%;
+  margin-top:163px;
+  margin-left:-30px;
+position:relative;
+ }
+
+  .footer:hover.banner{ background-color: red ;}
+ 
+
+  .footer-section{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: 520px;
+    height: 224px;
+    left: 439px;
+    top: 3463px; }
+ 
+/* ------------------------------------------
+           footer-section end
+----------------------------------------------- */
+
+
+/* -------------------------footer-botoom start----------------------------------- */
+.footer-section{display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  
+  position: absolute;
+  width: 520px;
+  height: 224px;
+  left: 439px;
+  top: 3463px; }
+
+
+  .logo{position: static;
+    width: 483.94px;
+    height: 110px;
+    left: 18.03px;
+    top: 5.5px;
+    
+    
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 0px;}
+
+    .icons{display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: static;
+width: 170px;
+height: 32px;
+right: 175px;
+top: calc(50% - 32px/2 + 39.5px);
+}
